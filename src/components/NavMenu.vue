@@ -1,11 +1,15 @@
 <script setup>
-import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const menuItems = [
   {
     name: 'Employment History',
     to: '#EmploymentHistory',
+    isRouter: false
+  },
+  {
+    name: 'Contact Me',
+    to: '#ContactMe',
     isRouter: false
   }
 ]
