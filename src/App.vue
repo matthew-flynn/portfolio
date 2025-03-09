@@ -5,7 +5,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <PageHeader />
-  <div class="h-full max-w-[1440px] min-w-[320px] mx-auto px-24">
+  <div class="h-full">
     <RouterView />
   </div>
 </template>

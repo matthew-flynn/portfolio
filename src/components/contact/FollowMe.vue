@@ -8,20 +8,20 @@ import IconGithub from '@/components/icons/IconGithub.vue'
 const links = [
   {
     component: IconGithub,
-    to: 'https://github.com/matthew-flynn'
+    to: 'https://github.com/matthew-flynn',
   },
   {
     component: IconLinkedIn,
-    to: 'https://www.linkedin.com/in/matthew-flynn-712942113/'
+    to: 'https://www.linkedin.com/in/matthew-flynn-712942113/',
   },
   {
     component: IconStrava,
-    to: 'https://www.strava.com/athletes/38051091'
+    to: 'https://www.strava.com/athletes/38051091',
   },
   {
     component: IconGoodreads,
-    to: 'https://www.goodreads.com/user/show/55013361-matt'
-  }
+    to: 'https://www.goodreads.com/user/show/55013361-matt',
+  },
 ]
 </script>
 
@@ -29,9 +29,9 @@ const links = [
   <p class="font-bold text-lg">Follow me at:</p>
   <div class="flex gap-4 pb-6">
     <ButtonWrapper
-        v-for="link in links"
-        :key="link.to"
-        class="w-10 h-10 !rounded-full bg-yellow-500 !p-0"
+      v-for="link in links"
+      :key="link.to"
+      class="w-10 h-10 !rounded-full bg-yellow-500 !p-0"
     >
       <a
         :href="link.to"

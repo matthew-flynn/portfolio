@@ -4,5 +4,10 @@ const emailAddress = 'contact@mattflynn.dev'
 
 <template>
   <p class="font-bold text-lg">Email me at:</p>
-  <a class="inline-block pb-4" :href="`mailto:${emailAddress}`">{{ emailAddress }}</a>
+  <a
+    class="inline-block pb-4"
+    :href="`mailto:${emailAddress}`"
+  >
+    {{ emailAddress }}
+  </a>
 </template>
