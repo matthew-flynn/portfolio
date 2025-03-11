@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import EmploymentHistory from '@/components/employment-history/EmploymentHistory.vue'
 import { employmentHistory } from '@/data/employment-history'
 </script>
@@ -14,7 +14,7 @@ import { employmentHistory } from '@/data/employment-history'
     <div class="flex flex-col gap-4 pb-4">
       <EmploymentHistory
         v-for="history in employmentHistory"
-        :key="history"
+        :key="history.jobTitle"
         :employment-history="history"
         class="pb-2"
       />

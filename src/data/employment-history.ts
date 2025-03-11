@@ -1,4 +1,19 @@
-const employmentHistory = [
+export type EmploymentHistory = {
+  jobTitle: string
+  company: string
+  companyUrl: string
+  timeframe: Timeframe
+  description: string
+  technologies: string[]
+}
+
+export type Timeframe = {
+  startYear: string
+  start: string
+  end: string
+}
+
+export const employmentHistory: EmploymentHistory[] = [
   {
     jobTitle: 'Full Stack Team Leader',
     company: 'Bionical Solutions',
@@ -6,7 +21,7 @@ const employmentHistory = [
     timeframe: {
       startYear: '2024',
       start: 'January 2024',
-      end: 'Present'
+      end: 'Present',
     },
     description: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla magna, sodales eget
@@ -18,7 +33,17 @@ const employmentHistory = [
         Aliquam a eros nisi. Phasellus bibendum erat nec nibh fringilla rhoncus. Pellentesque
         aliquam ligula sit amet nisl cursus, eu tempor metus ornare. Mauris posuere sem eu nisl
         finibus imperdiet. Suspendisse potenti.`,
-    technologies: ['C#', '.NET', 'Vue.js', 'Javascript', 'jQuery', 'SQL Server', 'Tailwind CSS', 'Azure', 'Azure AI Search']
+    technologies: [
+      'C#',
+      '.NET',
+      'Vue.js',
+      'Javascript',
+      'jQuery',
+      'SQL Server',
+      'Tailwind CSS',
+      'Azure',
+      'Azure AI Search',
+    ],
   },
   {
     jobTitle: 'Senior Software Developer',
@@ -27,7 +52,7 @@ const employmentHistory = [
     timeframe: {
       startYear: '2020',
       start: 'March 2020',
-      end: 'January 2024'
+      end: 'January 2024',
     },
     description: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla magna, sodales eget
@@ -39,7 +64,16 @@ const employmentHistory = [
         Aliquam a eros nisi. Phasellus bibendum erat nec nibh fringilla rhoncus. Pellentesque
         aliquam ligula sit amet nisl cursus, eu tempor metus ornare. Mauris posuere sem eu nisl
         finibus imperdiet. Suspendisse potenti.`,
-    technologies: ['C#', '.NET', 'Vue.js', 'Javascript', 'jQuery', 'SQL Server', 'Tailwind CSS', 'Azure']
+    technologies: [
+      'C#',
+      '.NET',
+      'Vue.js',
+      'Javascript',
+      'jQuery',
+      'SQL Server',
+      'Tailwind CSS',
+      'Azure',
+    ],
   },
   {
     jobTitle: 'Software Developer',
@@ -48,7 +82,7 @@ const employmentHistory = [
     timeframe: {
       startYear: '2019',
       start: 'April 2019',
-      end: 'March 2020'
+      end: 'March 2020',
     },
     description: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla magna, sodales eget
@@ -60,7 +94,15 @@ const employmentHistory = [
         Aliquam a eros nisi. Phasellus bibendum erat nec nibh fringilla rhoncus. Pellentesque
         aliquam ligula sit amet nisl cursus, eu tempor metus ornare. Mauris posuere sem eu nisl
         finibus imperdiet. Suspendisse potenti.`,
-    technologies: ['C#', '.NET', 'Vue.js', 'Javascript', 'jQuery', 'SQL Server', 'Tailwind CSS']
+    technologies: [
+      'C#',
+      '.NET',
+      'Vue.js',
+      'Javascript',
+      'jQuery',
+      'SQL Server',
+      'Tailwind CSS',
+    ],
   },
   {
     jobTitle: 'Graduate .NET Software Developer',
@@ -69,7 +111,7 @@ const employmentHistory = [
     timeframe: {
       startYear: '2017',
       start: 'May 2017',
-      end: 'April 2019'
+      end: 'April 2019',
     },
     description: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla magna, sodales eget
@@ -81,7 +123,16 @@ const employmentHistory = [
         Aliquam a eros nisi. Phasellus bibendum erat nec nibh fringilla rhoncus. Pellentesque
         aliquam ligula sit amet nisl cursus, eu tempor metus ornare. Mauris posuere sem eu nisl
         finibus imperdiet. Suspendisse potenti.`,
-    technologies: ['C#', '.NET', 'Vue.js', 'Angular', 'Javascript', 'jQuery', 'SQL Server', 'Tailwind CSS']
+    technologies: [
+      'C#',
+      '.NET',
+      'Vue.js',
+      'Angular',
+      'Javascript',
+      'jQuery',
+      'SQL Server',
+      'Tailwind CSS',
+    ],
   },
   {
     jobTitle: '.NET Software Development Trainee',
@@ -90,7 +141,7 @@ const employmentHistory = [
     timeframe: {
       startYear: '2016',
       start: 'October 2016',
-      end: 'May 2017'
+      end: 'May 2017',
     },
     description: `
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nulla magna, sodales eget
@@ -102,8 +153,13 @@ const employmentHistory = [
         Aliquam a eros nisi. Phasellus bibendum erat nec nibh fringilla rhoncus. Pellentesque
         aliquam ligula sit amet nisl cursus, eu tempor metus ornare. Mauris posuere sem eu nisl
         finibus imperdiet. Suspendisse potenti.`,
-    technologies: ['C#', '.NET Framework', 'HTML', 'CSS', 'SQL Server', 'UNIX scripting']
-  }
+    technologies: [
+      'C#',
+      '.NET Framework',
+      'HTML',
+      'CSS',
+      'SQL Server',
+      'UNIX scripting',
+    ],
+  },
 ]
-
-export { employmentHistory }

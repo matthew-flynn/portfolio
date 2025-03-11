@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import ButtonWrapper from '@/components/ui/ButtonWrapper.vue'
 import IconStrava from '@/components/icons/IconStrava.vue'
 import IconGoodreads from '@/components/icons/IconGoodreads.vue'

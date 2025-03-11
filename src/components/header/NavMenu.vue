@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { RouterLink } from 'vue-router'
 
 const menuItems = [
@@ -14,10 +14,15 @@ const menuItems = [
   },
 ]
 
-const scrollToId = (e) =>
-  document.querySelector(e.target.hash).scrollIntoView({
+const scrollToId = (e: Event) => {
+  const target = e.target as HTMLAnchorElement
+
+  if (!target.hash) return
+
+  document.querySelector(target.hash)?.scrollIntoView({
     behavior: 'smooth',
   })
+}
 </script>
 
 <template>
@@ -36,8 +41,7 @@ const scrollToId = (e) =>
       <a
         v-else
         :href="menuItem.to"
-        :ref="menuItem.refName"
-        @click.prevent="scrollToId"
+        @click.prevent="(e) => scrollToId(e)"
       >
         {{ menuItem.name }}
       </a>

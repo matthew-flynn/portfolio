@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import MyIntroduction from '@/components/introduction/MyIntroduction.vue'
 import EmploymentHistoryTimeline from '@/components/employment-history/EmploymentHistoryTimeline.vue'
 import ContactMe from '@/components/contact/ContactMe.vue'

@@ -1,12 +1,11 @@
-<script setup>
+<script setup lang="ts">
 import ButtonWrapper from '@/components/ui/ButtonWrapper.vue'
 import TechnologyPill from '@/components/employment-history/TechnologyPill.vue'
+import { type EmploymentHistory } from '@/data/employment-history.ts'
 
-const props = defineProps({
-  employmentHistory: {
-    type: Object,
-  },
-})
+const props = defineProps<{
+  employmentHistory: EmploymentHistory
+}>()
 </script>
 
 <template>
