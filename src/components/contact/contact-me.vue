@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import EmailMe from '@/components/contact/EmailMe.vue'
-import FollowMe from '@/components/contact/FollowMe.vue'
+import EmailMe from '@/components/contact/email-me.vue'
+import FollowMe from '@/components/contact/follow-me.vue'
 </script>
 
 <template>

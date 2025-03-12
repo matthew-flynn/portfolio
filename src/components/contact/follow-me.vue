@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import ButtonWrapper from '@/components/ui/ButtonWrapper.vue'
-import IconStrava from '@/components/icons/IconStrava.vue'
-import IconGoodreads from '@/components/icons/IconGoodreads.vue'
-import IconLinkedIn from '@/components/icons/IconLinkedIn.vue'
-import IconGithub from '@/components/icons/IconGithub.vue'
+import ButtonWrapper from '@/components/ui/button-wrapper.vue'
+import IconStrava from '@/components/icons/icon-strava.vue'
+import IconGoodreads from '@/components/icons/icon-goodreads.vue'
+import IconLinkedIn from '@/components/icons/icon-linked-in.vue'
+import IconGithub from '@/components/icons/icon-github.vue'
 
 const links = [
   {

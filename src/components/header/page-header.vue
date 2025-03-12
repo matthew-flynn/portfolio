@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import NavMenu from '@/components/header/NavMenu.vue'
+import NavMenu from '@/components/header/nav-menu.vue'
 </script>
 
 <template>

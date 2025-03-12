@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import EmploymentHistory from '@/components/employment-history/EmploymentHistory.vue'
+import EmploymentHistory from '@/components/employment-history/employment-history.vue'
 import { employmentHistory } from '@/data/employment-history'
 </script>
 
