@@ -28,7 +28,7 @@ const links = [
 <template>
   <p class="font-bold text-lg">Follow me at:</p>
   <div class="flex gap-4 pb-6">
-    <ButtonWrapper
+    <button-wrapper
       v-for="link in links"
       :key="link.to"
       class="w-10 h-10 !rounded-full bg-yellow-500 !p-0"
@@ -43,6 +43,6 @@ const links = [
           :is="link.component"
         ></component>
       </a>
-    </ButtonWrapper>
+    </button-wrapper>
   </div>
 </template>

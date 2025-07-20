@@ -9,7 +9,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <ButtonWrapper class="bg-beige-500 text-left">
+  <button-wrapper class="bg-beige-500 text-left">
     <a
       :href="props.employmentHistory.companyUrl"
       target="_blank"
@@ -27,12 +27,12 @@ const props = defineProps<{
         {{ props.employmentHistory.description }}
       </p>
       <div class="flex gap-2 flex-wrap mb-2">
-        <TechnologyPill
+        <technology-pill
           v-for="technology in props.employmentHistory.technologies"
           :key="technology"
           :text="technology"
         />
       </div>
     </a>
-  </ButtonWrapper>
+  </button-wrapper>
 </template>

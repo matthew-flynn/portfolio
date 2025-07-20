@@ -6,8 +6,8 @@ import ContactMe from '@/components/contact/contact-me.vue'
 
 <template>
   <main class="h-full">
-    <MyIntroduction />
-    <EmploymentHistoryTimeline />
-    <ContactMe />
+    <my-introduction />
+    <employment-history-timeline />
+    <contact-me />
   </main>
 </template>

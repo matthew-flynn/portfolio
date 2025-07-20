@@ -11,7 +11,7 @@ import FollowMe from '@/components/contact/follow-me.vue'
     >
       Contact Me
     </h1>
-    <EmailMe />
-    <FollowMe />
+    <email-me />
+    <follow-me />
   </div>
 </template>

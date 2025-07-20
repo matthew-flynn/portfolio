@@ -8,13 +8,13 @@ import NavMenu from '@/components/header/nav-menu.vue'
     <div
       class="max-w-[1440px] min-w-[320px] h-full mx-auto px-24 flex justify-between items-center"
     >
-      <RouterLink
+      <router-link
         class="text-2xl font-bold"
         to="/"
       >
         Matt Flynn
-      </RouterLink>
-      <NavMenu />
+      </router-link>
+      <nav-menu />
     </div>
   </header>
 </template>

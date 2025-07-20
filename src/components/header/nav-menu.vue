@@ -32,12 +32,12 @@ const scrollToId = (e: Event) => {
       :key="menuItem.name"
       class="font-bold"
     >
-      <RouterLink
+      <router-link
         v-if="menuItem.isRouter"
         :to="menuItem.to"
       >
         {{ menuItem.name }}
-      </RouterLink>
+      </router-link>
       <a
         v-else
         :href="menuItem.to"

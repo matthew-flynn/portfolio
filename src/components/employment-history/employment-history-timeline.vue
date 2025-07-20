@@ -12,7 +12,7 @@ import { employmentHistory } from '@/data/employment-history'
       Employment History
     </h1>
     <div class="flex flex-col gap-4 pb-4">
-      <EmploymentHistory
+      <employment-history
         v-for="history in employmentHistory"
         :key="history.jobTitle"
         :employment-history="history"

@@ -4,8 +4,8 @@ import { RouterView } from 'vue-router'
 </script>
 scriptTsSetup
 <template>
-  <PageHeader />
+  <page-header />
   <div class="h-full">
-    <RouterView />
+    <router-view />
   </div>
 </template>
