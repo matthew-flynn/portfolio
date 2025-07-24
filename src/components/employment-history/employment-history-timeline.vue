@@ -4,7 +4,7 @@ import { employmentHistory } from '@/data/employment-history'
 </script>
 
 <template>
-  <div class="max-w-[1440px] min-w-[320px] mx-auto px-6 md:px-24">
+  <div class="max-w-[1440px] min-w-[320px] mx-auto pt-6 px-6 md:px-24">
     <h1
       id="EmploymentHistory"
       class="font-bold text-5xl mb-4"
