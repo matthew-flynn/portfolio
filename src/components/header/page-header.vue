@@ -12,7 +12,7 @@ import NavMenu from '@/components/header/nav-menu.vue'
         class="text-2xl font-bold"
         to="/"
       >
-        Matt Flynn
+        Matthew Flynn
       </router-link>
       <nav-menu />
     </div>
