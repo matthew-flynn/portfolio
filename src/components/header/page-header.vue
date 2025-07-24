@@ -6,7 +6,7 @@ import NavMenu from '@/components/header/nav-menu.vue'
 <template>
   <header class="w-full bg-beige-500 h-24">
     <div
-      class="max-w-[1440px] min-w-[320px] h-full mx-auto px-24 flex justify-between items-center"
+      class="max-w-[1440px] min-w-[320px] h-full mx-auto px-6 md:px-24 flex justify-between items-center"
     >
       <router-link
         class="text-2xl font-bold"
