@@ -38,6 +38,7 @@ export const employmentHistory: EmploymentHistory[] = [
       '.NET',
       'Vue.js',
       'Javascript',
+      'Typescript',
       'jQuery',
       'SQL Server',
       'Tailwind CSS',
