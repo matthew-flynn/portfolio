@@ -2,10 +2,12 @@
 
 @theme {
   /* colours */
+  --color-parchment-500: #fcf5e5;
+  --color-deep-espresso-500: #4a4a4a;
   --color-yellow-500: #ffff00;
   --color-purple-500: #ff00f5;
   --color-lightblue-500: #7df9ff;
-  --color-beige-500: #f9f5f2;
+  --color-beige-500: #e5dcbd;
   --color-green-500: #2fff2f;
   --color-red-500: #ff4911;
   --color-mint-500: oklch(0.72 0.11 178);
@@ -16,4 +18,31 @@
 
   /* shadows */
   --font-sans: 'Public Sans';
+  --font-code: GoogleSansCode;
+}
+
+@font-face {
+  font-family: Garamond;
+  src: url(./fonts/EBGaramond-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Garamond-Italic;
+  src: url(./fonts/EBGaramond-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: GoogleSansCode;
+  src: url(./fonts/GoogleSansCode-VariableFont_MONO,wght.ttf);
+}
+
+@font-face {
+  font-family: Garamond-Italic;
+  src: url(./fonts/EBGaramond-Italic-VariableFont_wght.ttf);
+}
+
+body {
+  background: var(--color-parchment-500);
+  color: var(--color-deep-espresso-500);
+  font-family: Garamond;
 }

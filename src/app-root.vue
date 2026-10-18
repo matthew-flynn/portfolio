@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import PageHeader from '@/components/header/page-header.vue'
 import { RouterView } from 'vue-router'
+import SideMenu from './components/menu/side-menu.vue'
 </script>
-scriptTsSetup
+
 <template>
-  <page-header />
+  <side-menu />
   <div class="h-full">
     <router-view />
   </div>
