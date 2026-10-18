@@ -15,8 +15,8 @@ import MenuSection from './menu-section.vue'
       </a>
     </menu-section>
     <menu-section class="hidden lg:block">
-      Hello, I'm Matt, a software development team lead, musician, and runner.
-      This is my space to talk about the things I'm doing, software-related and
+      I'm Matt, a software development team lead, musician, and runner. This is
+      my space to talk about the things I'm doing, software-related and
       otherwise.
     </menu-section>
   </div>
